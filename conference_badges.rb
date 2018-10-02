@@ -23,7 +23,7 @@ end
 def printer (attendees)
   attendees.each do |attendees|
     puts "Hello, my name is #{attendees}."
-  end
+        end
     room = 1
     attendees. each do |attendee|
       puts "Hello, #{attendee}! You'll be assigned to room #{room}!"
