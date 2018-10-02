@@ -26,7 +26,7 @@ def printer (attendees)
   end
     room = 1
     attendees. each do |attendee|
-      puts "Hello, #{attendee}! You'll be assigned to room #{room}!"
+      puts "Hello, #{attendee}! You'll b assigned to room #{room}!"
       room +=1
     end
 end
